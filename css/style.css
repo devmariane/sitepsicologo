@@ -1,6 +1,8 @@
-:root{
-    --corprincipal:#347C94; 
+:root {
+    --corprincipal: #283C19;
+    --corSecundaria: #EAEAEA;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +10,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif; 
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
@@ -16,32 +18,37 @@ body {
 }
 
 header {
-    background: var(--corprincipal); 
+    background: var(--corprincipal);
     display: flex;
     justify-content: space-between;
     color: white;
 
 }
-.logo > p{
-    font-family:"Mrs Saint Delafield", serif;
+
+.logo>p {
+    font-family: "Mrs Saint Delafield", serif;
     font-size: 48px;
     margin: 10px 0 0 20px;
 }
-.botoes-home > button{
+
+.botoes-home>button {
     background-color: var(--corprincipal);
     border-color: var(--corprincipal);
 }
-.botoes-home > button:hover{
+
+.botoes-home>button:hover {
     background-color: #296478;
     border-color: #296478;
 }
-.botoes-home{
+
+.botoes-home {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-main > #home{
+
+main>#home {
     background-image: url('../imagens/fundoinicial.jpg');
     background-repeat: no-repeat;
     height: 75vh;
@@ -49,21 +56,24 @@ main > #home{
     padding: 0;
     margin: 0;
     background-size: cover;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-position: bottom;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     font-family: "Poiret One", sans-serif;
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.541);
 }
-#home > h2{
+
+#home>h2 {
     font-size: 70px;
 }
-#home > p{
+
+#home>p {
     font-size: 25px;
 }
+
 section {
     padding: 20px;
     margin: 15px 0;
@@ -72,11 +82,37 @@ section {
 }
 
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     margin-bottom: 10px;
-    color: #2e7d32; 
+    color: #2e7d32;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image {
+    flex-shrink: 0;
+}
+
+.image img {
+    align-self: right;
+    max-width: 100%;
+    height: auto;
+}
 
 form {
     display: flex;
@@ -87,26 +123,27 @@ form label {
     margin: 10px 0 5px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 form button {
     margin-top: 10px;
     padding: 10px;
-    background-color: #4CAF50; 
+    background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s; 
+    transition: background-color 0.3s;
 }
 
 form button:hover {
-    background-color: #45a049; 
+    background-color: #45a049;
 }
 
 
@@ -127,7 +164,8 @@ footer {
     display: flex;
     justify-content: center;
 }
-footer > p{
+
+footer>p {
     padding-top: 10px;
 }
 
@@ -142,10 +180,10 @@ footer > p{
 
 @media (max-width: 768px) {
     nav ul li {
-        display: block; 
+        display: block;
         margin: 5px 0;
     }
-    
+
     section {
         padding: 15px;
     }
