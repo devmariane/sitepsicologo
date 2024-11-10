@@ -1,6 +1,7 @@
 :root {
     --corprincipal: #283C19;
-    --corSecundaria: #EAEAEA;
+    --corFundo: #ebebeb;
+    
 }
 
 * {
@@ -12,7 +13,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: var(--corFundo1);
     color: #333;
     overflow-x: hidden;
 }
@@ -48,6 +49,9 @@ header {
     justify-content: center;
 }
 
+main{
+    background-color:var(--corFundo);
+}
 main>#home {
     background-image: url('../imagens/fundoinicial.jpg');
     background-repeat: no-repeat;
@@ -97,11 +101,23 @@ h3 {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    
 }
 
 .text {
     flex: 1;
     margin-right: 20px;
+}
+
+/*div.textAlign{
+    display: flex;
+    justify-content: row;
+}*/
+
+div.container:hover {
+    background-color: var(--corFundo1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
 }
 
 .image {
