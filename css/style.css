@@ -148,6 +148,12 @@ h3 {
     flex-direction: column;
     margin-left: 50px;
 }
+.servicos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 form {
     display: flex;
     flex-direction: column;
