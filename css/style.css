@@ -3,9 +3,9 @@
     --corSecundaria: #EAEAEA;
     --corTerciaria:#4d643c;
     --corFundo: #ebebeb;
+    --corfundo2:#5b7342;
     
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -18,9 +18,11 @@ p{
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: var(--corFundo1);
+    background-color: var(--corFundo);
     color: #333;
     overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -28,13 +30,13 @@ header {
     display: flex;
     justify-content: space-between;
     color: white;
-
 }
 
 .logo>p {
     font-family: "Mrs Saint Delafield", serif;
     font-size: 48px;
-    margin: 10px 0 0 20px;
+    margin: 10px 0 0px 50px;
+    color: white;
 }
 
 .botoes-home>button {
@@ -61,23 +63,28 @@ header {
 
 main{
     background-color:var(--corFundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 main>#home {
     background-image: url('../imagens/fundoinicial.jpg');
     background-repeat: no-repeat;
     height: 75vh;
-    width: 100vw;
+    width: 100%;
     padding: 0;
     margin: 0;
+    margin-bottom: 50px;
     background-size: cover;
     background-attachment: fixed;
-    background-position: bottom;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     font-family: "Poiret One", sans-serif;
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.541);
+    background-position-y: -80px;
 }
 
 #home>h2 {
@@ -88,13 +95,11 @@ main>#home {
     font-size: 25px;
 }
 
-section {
-    padding: 20px;
-    margin: 15px 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+section#about{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 50px 100px 50px;
 }
-
 
 h1,
 h2,
@@ -103,15 +108,12 @@ h3 {
     color: #2e7d32;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.meu-container {
     font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
     font-style: normal;
-    
+    width: 95vw;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .text {
@@ -119,25 +121,32 @@ h3 {
     margin-right: 20px;
 }
 
-/*div.textAlign{
+.textAlign{
     display: flex;
-    justify-content: row;
-}*/
+    flex-direction: column;
+    text-align: justify;
+    margin-right: 15px;
+}
+#bio{
+    margin: 600px;
+}
 
-div.container:hover {
+.meu-container:hover {
     background-color: var(--corFundo1);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transform: scale(1.05);
+    transition: 0.9;
+    
 }
-
-.image {
-    flex-shrink: 0;
+.image{
+    padding: 0;
+    margin: 0;
+    background-color: var(--corFundo);
 }
-
-.image img {
-    align-self: right;
-    max-width: 100%;
-    height: auto;
+.image > img {
+    display: flex;
+    align-self: flex-end;
+    max-width: auto;
+    height: 600px;
 }
 .terapia{
     display: flex;
@@ -165,7 +174,7 @@ div.container:hover {
     flex-direction: column;
     margin-left: 50px;
 }
-.servicos{
+#servicos{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -241,7 +250,5 @@ footer>p {
         margin: 5px 0;
     }
 
-    section {
-        padding: 15px;
-    }
+
 }
