@@ -4,7 +4,7 @@
     --corTerciaria:#4d643c;
     --corFundo: #ebebeb;
     --corfundo2:#5b7342;
-    
+    --letras:rgb(100, 100, 100);
 }
 * {
     margin: 0;
@@ -223,6 +223,23 @@ h3 {
     justify-content: center;
     align-items: center;
 }
+#publico-alvo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 100px 50px 100px;
+    text-align: justify;
+}
+.publico{
+    flex-basis: 50%;
+    margin-right: 40px;
+}
+.alvo > ul{
+    color: var(--letras);
+}
+.alvo{
+    margin-top: 70px;
+}
 form {
     display: flex;
     flex-direction: column;
@@ -269,13 +286,13 @@ footer {
     text-align: center;
     padding: 5px 0;
     background: var(--corprincipal);
-    color: white;
     display: flex;
     justify-content: center;
 }
 
 footer>p {
     padding-top: 10px;
+    color: white !important;
 }
 
 .hidden {
