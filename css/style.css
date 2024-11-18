@@ -39,19 +39,19 @@ header {
     color: white;
 }
 
-.botoes-home>button {
+.botoes-home>a>button {
     background-color: var(--corprincipal);
     border-color: var(--corprincipal);
-    border: var(--corprincipal)!important;
-    margin-bottom: 5px!important;
+    border: var(--corprincipal);
+    margin-bottom: 5px;
 }
 
-.botoes-home>button:hover {
+.botoes-home>a>button:hover {
     background-color: #4d643c;
     border-color: #283C19;
 }
 
-.botoes-home>button:active{
+.botoes-home>a>button:active{
       background-color: var(--corprincipal)!important;
   }
 .botoes-home {
@@ -60,6 +60,7 @@ header {
     align-items: center;
     justify-content: center;
 }
+
 
 main{
     background-color:var(--corFundo);
