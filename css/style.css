@@ -240,6 +240,29 @@ h3 {
 .alvo{
     margin-top: 70px;
 }
+.reflexoestotal{
+    background-color: #a3bb8ba0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.textoreflexoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 100px 50px 100px;
+    text-align: justify;
+}
+.reflexoestotal > h2{
+    margin-top: 50px;
+    text-align: center;
+}
+.reflexaoUm{
+    margin-right: 80px;
+    padding-right: 50px;
+}
+.reflexaoDois{
+    padding-top: 50px;
+}
 form {
     display: flex;
     flex-direction: column;
