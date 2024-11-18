@@ -263,6 +263,15 @@ h3 {
 .reflexaoDois{
     padding-top: 50px;
 }
+.dicas{
+    margin: 50px 100px 50px 100px;
+    
+}
+.textodicas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 form {
     display: flex;
     flex-direction: column;
