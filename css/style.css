@@ -404,10 +404,18 @@ form button:hover {
   line-height: 1.5;
   font-size: 20px;
 }
-#contatoeagendamento{
+#localeagendamento{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width: 80vw;
+}
+.loeagen{
+  margin: 50px 0px 50px 0px ;
+}
+#local > iframe{
+    width: 500px;
+    height: 400px;
 }
 #redes-sociais > a > img{
   width: 50px;
