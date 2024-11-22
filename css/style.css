@@ -404,6 +404,16 @@ form button:hover {
   line-height: 1.5;
   font-size: 20px;
 }
+#contatoeagendamento{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#redes-sociais > a > img{
+  width: 50px;
+  height: auto;
+  margin: 10px;
+}
 footer {
   text-align: center;
   padding: 5px 0;
