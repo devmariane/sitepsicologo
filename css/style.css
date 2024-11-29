@@ -135,9 +135,7 @@ h3 {
   text-align: justify;
   margin-right: 15px;
 }
-#bio {
-  margin: 600px;
-}
+
 
 .meu-container:hover {
   background-color: var(--corFundo1);
@@ -492,11 +490,20 @@ footer > p {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+  margin-bottom: 20px;
   }
   #imagemcelular >img{
   width: 80vw;
   height: auto;
+  }
+  .textAlign{
+    text-align: justify;
+  }
+  #Bio{
+    margin-bottom: 0;
+  }
+  #terapia{
+    margin-top: 0;
   }
   .terapia {
   display: flex;
@@ -508,33 +515,42 @@ footer > p {
     display: none;
   }
   .terapia2 > p {
-  margin: 0px 0px 0px 0px;
+  margin: 0px 35px 0px 0px;
   }
   #servicos {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   }
   #publico-alvo {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 100px 50px 100px;
+  margin: 0px 0px 0px 60px;
   text-align: justify;
   flex-direction: column;
+
+}
+.alvo{
+  margin-right: 30px;
 }
 .artigos {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;  
+  align-items: center;
 }
 .textoreflexoes {
   display: flex;
   justify-content: center;
-  margin: 20px 100px 50px 100px;
- flex-direction: column;
+  margin: 0px 0px 5px 50px;
+  flex-direction: column;
+  text-align: justify;
+}
+.reflexaoDois{
+  margin-right: 50px;
 }
 .textodicas {
   display: flex;
