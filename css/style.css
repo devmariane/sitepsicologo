@@ -493,7 +493,7 @@ footer > p {
   margin-bottom: 20px;
   }
   #imagemcelular >img{
-  width: 80vw;
+  width: 50vw;
   height: auto;
   }
   .textAlign{
@@ -541,6 +541,7 @@ footer > p {
   flex-wrap: wrap;
   justify-content: center;  
   align-items: center;
+
 }
 .textoreflexoes {
   display: flex;
@@ -551,6 +552,13 @@ footer > p {
 }
 .reflexaoDois{
   margin-right: 50px;
+}
+.dicas{
+  text-align: justify;
+  margin: 30px 45px 0px 50px;
+}
+.dicas > h3{
+  text-align: center;
 }
 .textodicas {
   display: flex;
@@ -565,10 +573,17 @@ footer > p {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 200px;
+  width: 300px;
+  margin-left: 60px;
+  }
+  #contato{
+    margin-bottom: 20px;
+  }
+  #local {
+    text-align: center;
   }
   #local > iframe{
-    width: 150px;
+    width: 300px;
     height: auto;
   }
 
