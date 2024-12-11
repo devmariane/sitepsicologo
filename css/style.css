@@ -455,7 +455,7 @@ footer > p {
     overflow-x: hidden !important;
   }
   .hideCellphone {
-    display: none;
+    display: none !important;
   }
   main > #home {
     padding-top: 5px;
